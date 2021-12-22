@@ -1,5 +1,5 @@
 # pomodoro
-Pomodoro clock, get inspired from reading this (The Pomodoro Technique)[article https://todoist.com/productivity-methods/pomodoro-technique]
+Pomodoro clock, get inspired from reading this article [The Pomodoro Technique article] (https://todoist.com/productivity-methods/pomodoro-technique)
 This pomodoro technique has 5 steps
 - step 1 : work 25 minutes (Work 1)
 - step 2 : get short break for 5 minutes (Break 1)
