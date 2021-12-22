@@ -1,0 +1,70 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    background: #121212;
+    height: 100vh;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+#duration {
+    font-size: 15vmin;
+    margin-bottom: 2vh;
+}
+
+#activity {
+    font-size: 10vmin;
+    text-align: center;
+}
+
+#btn-container {
+    text-align: center;
+    margin-top: 4vh;
+}
+
+#btn {
+    background-color: #fff;
+    color: #2a3439;
+    font-size: 8vmin;
+    padding: 0.2em 1em;
+    border: 0;
+    border-radius: 30px;
+}
+
+small {
+    font-size: 0.5em;
+}
+
+/* PWA special style */
+.pwa {
+    position: relative;
+}
+
+.pwa::before {
+    position: absolute;
+    transform-origin: top left;
+    transform: rotate(90deg) translateY(-4em);
+    content: 'POMODORO';
+    font-size: 8em;
+    width: 2ch;
+    line-height: 6em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 0 10vw 0 0;
+    margin: 0;
+    color: #444;
+    top: 0;
+    left: 0;
+}
